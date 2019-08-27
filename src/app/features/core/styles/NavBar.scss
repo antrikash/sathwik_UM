@@ -1,0 +1,19 @@
+$primary: greenyellow;
+$secondary: orange;
+
+.active {
+    color: $primary;
+}
+a {
+    &:hover {
+        text-decoration: none;
+        color: $secondary
+    }
+}
+.full-height {
+    height: 100vh;
+}
+.header {
+    background-color: #bcbcbc;
+    color: #343a40;
+}
